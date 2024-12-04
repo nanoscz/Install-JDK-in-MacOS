@@ -108,6 +108,15 @@ The terminal should display:
 Hello, World!
 ```
 
+### Optional: Configuring Android SDK Environment Variables
+
+If you plan to use the Android SDK alongside the JDK for Android development, you'll need to configure the required environment variables.
+
+```
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH
+```
+
 ---
 
 ## Summary
